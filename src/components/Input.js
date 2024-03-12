@@ -6,7 +6,7 @@ function Input({ state, onChange }) {
   return (
     <div className="flex-grow md:flex-none">
       <label className="w-full">
-        <h2 className={`{ste}text-smokey-grey mb-2 text-sm font-bold tracking-[3.5px]`}>
+        <h2 className="text-smokey-grey mb-2 text-sm font-bold tracking-[3.5px]">
           {state.label}
         </h2>
         <input
